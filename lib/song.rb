@@ -59,4 +59,5 @@ end
 
 end
 
+end
 lucifer = Song.new("hit me baby one more time", "Brittany Spears", "pop")
