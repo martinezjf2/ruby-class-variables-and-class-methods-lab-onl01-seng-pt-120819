@@ -1,6 +1,7 @@
 
 
 
+ require "pry"
 
 class Song
   attr_accessor :name, :artist, :genre
@@ -33,6 +34,7 @@ class Song
   end
 
   def self.genre_count
+    binding.pry
     @@genre_count = {}
     @@genres.each do |genre|
       if genre == genre?
