@@ -37,7 +37,7 @@ class Song
     binding.pry
     @@genre_count = {}
     @@genres.each do |genre|
-      if genre == genre?
+      if genre == genre
 
       else
 
